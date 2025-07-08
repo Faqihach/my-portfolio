@@ -23,6 +23,7 @@
 	align-items: center;
 	flex-direction: column;
 	width: 800px;
+	/* color: #ffffff; */
 }
 
 .contact-left h3,
@@ -49,8 +50,8 @@
 	width: 350px;
 	margin: 8px 0 8px 0;
 	padding: 18px;
-	background-color: var(--third-color);
-	box-shadow: 8px 8px rgba(0, 0, 0, 0.3);
+	background-color: #e5e3e3;
+	box-shadow: 5px 5px rgba(0, 0, 0, 0.3);
 }
 
 .email-wrapper h3,
@@ -117,6 +118,31 @@ button.btn-copy:hover {
 .contact-container {
 	padding-top: 12px;
 	height: 320px !important;
+}
+
+[data-theme="dark"] .contact-left h3 {
+	color: #fff;
+}
+[data-theme="dark"] .contact-left h4 {
+	color: #fff;
+}
+[data-theme="dark"] .email-wrapper,
+[data-theme="dark"] .linkedin-wrapper,
+[data-theme="dark"] .github-wrapper,
+[data-theme="dark"] .instagram-wrapper {
+	background-color: #464444;
+	color: #fff;
+	box-shadow: 5px 5px rgba(255, 255, 255, 0.1);
+}
+
+[data-theme="dark"] button.btn-copy:hover {
+	background-color: #fff;
+	color: var(--fourth-color);
+}
+
+[data-theme="dark"] a.btn-direct {
+	background-color: #fff;
+	color: var(--fourth-color);
 }
 
 @media (max-width: 1400px) {
