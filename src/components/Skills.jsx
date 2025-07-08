@@ -48,17 +48,9 @@ function Skills() {
 								title="Bootstrap"
 							></i>
 							<i
-								className="devicon-react-original-wordmark colored"
-								title="React JS"
-							></i>
-							<i
 								className="devicon-mysql-plain-wordmark colored"
 								title="MySQL"
 							></i>
-						</div>
-					</div>
-					<div className="row my-4 animate__animated animate__flipInX animate_slow">
-						<div className="col">
 							<i
 								className="devicon-laravel-plain-wordmark colored"
 								title="Laravel"
