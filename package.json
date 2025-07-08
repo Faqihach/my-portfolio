@@ -13,6 +13,7 @@
     "animate.css": "^4.1.1",
     "bootstrap": "^5.3.7",
     "devicon": "^2.16.0",
+    "fslightbox-react": "^1.8.0",
     "react": "^19.1.0",
     "react-bootstrap": "^2.10.10",
     "react-copy-to-clipboard": "^5.1.0",

@@ -13,7 +13,7 @@ footer {
 
 .foot-right,
 .foot-left {
-	font-family: "Manrope", sans-serif;
+	font-family: var(--primary-font);
 	font-size: 14px;
 }
 

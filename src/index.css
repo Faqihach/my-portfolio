@@ -1,29 +1,25 @@
 /* Manrope - Modern & Elegant */
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
 
-/* Space Grotesk - Modern & Unique */
-@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap");
-
-/* Fira Code - Beautiful Monospace */
-@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap");
+/* Archivo - Modern & Unique */
+@import url("https://fonts.googleapis.com/css2?family=Archivo:wght@300;400;500;600;700&display=swap");
 
 :root {
 	--first-color: #1c658c;
 	--second-color: #398ab9;
 	--third-color: #d8d2cb;
-	--fourth-color: #ffffff;
+	--fourth-color: #d1d1d1;
 	--five-color: #e1c16e;
 	--six-color: #0d6efd;
 	--primary-font: "Manrope", sans-serif;
-	--heading-font: "Space Grotesk", sans-serif;
-	--mono-font: "Fira Code", monospace;
+	--heading-font: "Archivo", sans-serif;
 }
 
 [data-theme="dark"] {
 	--first-color: #4a9eff;
 	--second-color: #6bb6ff;
 	--third-color: #404040;
-	--fourth-color: #181414;
+	--fourth-color: #201c1c;
 	--five-color: #ffd700;
 	--six-color: #007bff;
 	--text-color: #fff;

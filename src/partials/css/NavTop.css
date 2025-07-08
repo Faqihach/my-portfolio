@@ -94,7 +94,7 @@ i#normal {
 	align-items: center;
 	text-decoration: none;
 	color: var(--text-color);
-	font-family: "Archivo", sans-serif;
+	font-family: var(--heading-font);
 	font-weight: 600;
 	font-size: 35px;
 	margin: 40px 0 40px 0;

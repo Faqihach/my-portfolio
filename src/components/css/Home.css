@@ -23,7 +23,7 @@
 }
 
 .home-left h2 {
-	font-family: "Archivo", sans-serif;
+	font-family: var(--heading-font);
 	font-weight: 800;
 	font-size: 65px;
 	line-height: 75px;
@@ -32,7 +32,7 @@
 }
 
 .home-left h3 {
-	font-family: "Manrope", sans-serif;
+	font-family: var(--primary-font);
 	font-weight: 200;
 	font-size: 30px;
 	cursor: default;
@@ -46,7 +46,7 @@
 }
 
 img.home-image {
-	width: 320px;
+	width: 280px;
 	border-radius: 15px;
 	transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 	transform: translateY(-5px) scale(1.1);
@@ -88,7 +88,7 @@ img.home-image:hover {
 	border-radius: 0px;
 	box-shadow: 8px 8px var(--third-color);
 	text-decoration: none;
-	font-family: "Manrope", sans-serif;
+	font-family: var(--primary-font);
 	font-weight: 600;
 	color: var(--fourth-color);
 	background-color: var(--first-color);
@@ -158,20 +158,12 @@ img.home-image:hover {
 		display: none !important;
 	}
 
-	img.home-image {
-		width: 200px;
-	}
-
 	a.btn-download {
 		margin: auto;
 	}
 }
 
 @media (max-width: 576px) {
-	img.home-image {
-		width: 150px;
-	}
-
 	.home-left h2 {
 		font-size: 50px;
 		line-height: 70px;

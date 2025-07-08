@@ -8,7 +8,7 @@
 }
 
 .side-title {
-	font-family: "Manrope", sans-serif;
+	font-family: var(--primary-font);
 	font-weight: bold;
 	color: var(--text-secondary);
 	transition: color 0.3s ease;
