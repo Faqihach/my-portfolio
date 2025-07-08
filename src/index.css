@@ -1,0 +1,60 @@
+/* Manrope - Modern & Elegant */
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+
+/* Space Grotesk - Modern & Unique */
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap");
+
+/* Fira Code - Beautiful Monospace */
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap");
+
+:root {
+	--first-color: #1c658c;
+	--second-color: #398ab9;
+	--third-color: #d8d2cb;
+	--fourth-color: #ffffff;
+	--five-color: #e1c16e;
+	--six-color: #0d6efd;
+	--primary-font: "Manrope", sans-serif;
+	--heading-font: "Space Grotesk", sans-serif;
+	--mono-font: "Fira Code", monospace;
+}
+
+[data-theme="dark"] {
+	--first-color: #4a9eff;
+	--second-color: #6bb6ff;
+	--third-color: #404040;
+	--fourth-color: #2b2a2a;
+	--five-color: #ffd700;
+	--six-color: #007bff;
+	--text-color: #fff;
+	--text-secondary: #ffffff99;
+	--hover-bg: #ffffff1a;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: var(--fourth-color);
+	font-family: var(--primary-font);
+}
+
+.preload {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background-color: var(--fourth-color);
+	height: 100vh;
+	width: 100%;
+}
+
+.preload h1 {
+	font-family: var(--heading-font);
+	margin: 0;
+	cursor: default;
+	font-weight: 600;
+}

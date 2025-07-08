@@ -1,0 +1,129 @@
+.navtop {
+	background-color: var(--fourth-color);
+	transition: background-color 0.3s ease;
+}
+
+.navtop-brand a {
+	font-family: "Source Serif Pro", serif;
+	font-size: 28px !important;
+	font-weight: 600;
+	color: var(--text-color);
+	text-decoration: none;
+	cursor: pointer;
+	transition: color 0.3s ease;
+}
+
+.navtop-brand a:hover {
+	color: var(--first-color);
+}
+
+i#normal {
+	font-weight: 500;
+}
+
+.navtop-list a {
+	font-family: "Manrope", sans-serif;
+	text-decoration: none;
+	color: var(--text-secondary);
+	transition: color 0.3s ease;
+}
+
+.active {
+	border-bottom: 1px solid var(--first-color);
+	text-decoration: none;
+	font-weight: 600;
+	color: var(--first-color) !important;
+}
+
+.navtop-list a:hover {
+	color: var(--second-color);
+	transition: all 0.3s ease;
+}
+
+/* Theme Toggle Button */
+.theme-toggle {
+	background: none;
+	border: none;
+	font-size: 18px;
+	color: var(--text-color);
+	cursor: pointer;
+	padding: 8px;
+	border-radius: 50%;
+	transition: all 0.3s ease;
+}
+
+.theme-toggle:hover {
+	background-color: var(--hover-bg);
+	transform: scale(1.1);
+}
+
+.toogle-menu {
+	display: none;
+	border: none;
+	font-size: 20px;
+	background-color: transparent;
+	color: var(--text-color);
+	transition: color 0.3s ease;
+}
+
+.menu {
+	display: none;
+	position: absolute;
+	background: var(--third-color);
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+	z-index: 9999999;
+	transition: background-color 0.3s ease;
+}
+
+.menu-close {
+	display: flex;
+	flex-direction: column;
+	padding: 28px 24px !important;
+}
+
+.menu-list {
+	margin: 25px 0 25px 0;
+}
+
+.menu-list a {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+	color: var(--text-color);
+	font-family: "Archivo", sans-serif;
+	font-weight: 600;
+	font-size: 35px;
+	margin: 40px 0 40px 0;
+	transition: 0.3s;
+}
+
+.menu-list a.active {
+	color: var(--first-color) !important;
+	font-style: italic;
+	text-decoration: line-through;
+	border-bottom: none;
+}
+
+.menu-list a:hover {
+	text-decoration: line-through;
+	font-style: italic;
+	color: var(--second-color);
+}
+
+@media (max-width: 992px) {
+	.navtop-list {
+		display: none !important;
+	}
+
+	.toogle-menu {
+		display: flex;
+	}
+
+	.menu {
+		display: flex;
+	}
+}

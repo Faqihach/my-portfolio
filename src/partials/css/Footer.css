@@ -1,0 +1,47 @@
+footer {
+	position: fixed;
+	left: 0px;
+	bottom: 0px;
+	width: 100%;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	background-color: var(--fourth-color);
+	display: flex;
+	justify-content: space-between;
+	transition: background-color 0.3s ease;
+}
+
+.foot-right,
+.foot-left {
+	font-family: "Manrope", sans-serif;
+	font-size: 14px;
+}
+
+.foot-left p {
+	color: var(--text-color);
+	margin-bottom: 0;
+	padding: 8px;
+	cursor: default;
+	transition: color 0.3s ease;
+}
+
+.foot-right a {
+	color: var(--text-color);
+	text-decoration: none;
+	padding: 8px;
+	transition: color 0.3s ease;
+}
+
+.foot-right a:hover {
+	color: var(--first-color);
+}
+
+.foot-icon {
+	font-size: 16px;
+}
+
+@media (max-width: 992px) {
+	footer {
+		display: none !important;
+	}
+}

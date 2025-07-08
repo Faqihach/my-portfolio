@@ -1,0 +1,52 @@
+.side-vertical {
+	display: flex;
+	justify-content: space-between;
+	height: 550px;
+	padding: 14px 20px;
+	writing-mode: vertical-rl;
+	text-orientation: mixed;
+}
+
+.side-title {
+	font-family: "Manrope", sans-serif;
+	font-weight: bold;
+	color: var(--text-secondary);
+	transition: color 0.3s ease;
+}
+
+.side-date {
+	font-family: "Manrope", monospace;
+	color: var(--text-color);
+	transition: color 0.3s ease;
+}
+
+.side-number {
+	font-family: "Manrope", monospace;
+	color: var(--text-color);
+	transition: color 0.3s ease;
+}
+
+.disabled-color {
+	color: var(--text-secondary);
+}
+
+a.arrow {
+	color: var(--text-color);
+	transition: color 0.3s ease;
+}
+
+a.arrow:hover {
+	color: var(--first-color);
+}
+
+.side-title,
+.side-date,
+.side-number {
+	cursor: default;
+}
+
+@media (max-width: 992px) {
+	.side-vertical {
+		display: none !important;
+	}
+}
