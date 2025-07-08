@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { Route, Routes } from "react-router-dom";
 
 import NavTop from "./partials/NavTop";
@@ -10,10 +10,23 @@ import Home from "./components/Home";
 import About from "./components/About";
 import Skills from "./components/Skills";
 import Contact from "./components/Contact";
-
-// import { useState } from "react";
+import Preloader from "./components/Preloader";
 
 function App() {
+	const [loading, setLoading] = useState(true);
+
+	useEffect(() => {
+		const timer = setTimeout(() => {
+			setLoading(false);
+		}, 2000);
+
+		return () => clearTimeout(timer);
+	}, []);
+
+	if (loading) {
+		return <Preloader />;
+	}
+
 	return (
 		<>
 			<NavTop />
