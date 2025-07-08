@@ -70,46 +70,46 @@ function NavTop() {
 						</button>
 					</div>
 					<Nav className="navtop-list ms-auto">
-						<Nav.Link className="pe-3">
+						<div className="pe-3">
 							<NavLink
 								to="/"
 								className={({ isActive }) => (isActive ? "active" : "")}
 							>
 								Home
 							</NavLink>
-						</Nav.Link>
-						<Nav.Link className="pe-3">
+						</div>
+						<div className="pe-3">
 							<NavLink
 								to="/about"
 								className={({ isActive }) => (isActive ? "active" : "")}
 							>
 								About
 							</NavLink>
-						</Nav.Link>
-						<Nav.Link className="pe-3">
+						</div>
+						<div className="pe-3">
 							<NavLink
 								to="/skills"
 								className={({ isActive }) => (isActive ? "active" : "")}
 							>
 								Skills
 							</NavLink>
-						</Nav.Link>
-						<Nav.Link className="pe-3">
+						</div>
+						<div className="pe-3">
 							<NavLink
 								to="/projects"
 								className={({ isActive }) => (isActive ? "active" : "")}
 							>
 								Projects
 							</NavLink>
-						</Nav.Link>
-						<Nav.Link>
+						</div>
+						<div>
 							<NavLink
 								to="/contact"
 								className={({ isActive }) => (isActive ? "active" : "")}
 							>
 								Contact
 							</NavLink>
-						</Nav.Link>
+						</div>
 					</Nav>
 				</Container>
 			</Navbar>
