@@ -22,7 +22,7 @@ function About() {
 		<>
 			<HelmetProvider>
 				<Helmet>
-					<title>Faqih - About</title>
+					<title>Fakih - About</title>
 				</Helmet>
 			</HelmetProvider>
 			<FsLightbox

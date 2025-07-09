@@ -28,7 +28,7 @@ function Contact() {
 		<>
 			<HelmetProvider>
 				<Helmet>
-					<title>Faqih - Contact</title>
+					<title>Fakih - Contact</title>
 				</Helmet>
 			</HelmetProvider>
 			<Container fluid className="contact-wrapper">

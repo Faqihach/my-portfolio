@@ -23,7 +23,7 @@ function Home() {
 		<>
 			<HelmetProvider>
 				<Helmet>
-					<title>Faqih - Home</title>
+					<title>Fakih - Home</title>
 				</Helmet>
 			</HelmetProvider>
 			<Container fluid className="home-wrapper">
